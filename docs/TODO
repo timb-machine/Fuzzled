@@ -1,0 +1,23 @@
+Namespaces:
+
+* Write the following namespaces:
+  Fuzzled::Namespace::URLEncoded
+  Fuzzled::Namespace::Unicode
+  Fuzzled::Namespace::LDAP
+* Add validation for function parameters across namespaces
+* Write unit tests across namespaces
+
+Factories:
+
+* Write the following factories:
+  Fuzzled::Factory::QuickBruteForce; ala DirBuster
+* Add validation for fuction parameters across factories
+* Write unit tests across factories
+
+Encoders:
+
+* Write the following encoders:
+  Fuzzled::Encoder::Base64
+  Fuzzled::Encoder::MD5
+  Fuzzled::Encoder::URLEncoded
+* Write unit tests across encoders

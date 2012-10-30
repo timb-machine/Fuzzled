@@ -1,0 +1,8 @@
+For each Fuzzled module, to install:
+
+1) cd <module name>
+2) perl Makefile.PL
+3) make
+4) make install
+
+The latest version of Fuzzled can always be found at <http://www.fuzzled.pl/>.

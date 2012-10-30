@@ -1,0 +1,40 @@
+1.1 - 2.1
+
+Midway through developing Fuzzled 2.0, a decision to throw away a substantial
+portion of the pre-2.0 code base including substantial portions of the 1.1-2.0
+update. Specicially the Fuzzled::Object::* implementation, support for various
+protocols and fuzzers that relied upon it. As part of this process, the CVS
+repository was reseeded using the following components from the planned 2.0
+release:
+
+* Fuzzled::Factory::BruteForce
+* Fuzzled::Factory::Date
+* Fuzzled::Factory::Increment
+* Fuzzled::Factory::Pad
+* Fuzzled::Factory::Pattern
+* Fuzzled::Factory::QuickBruteForce
+* Fuzzled::Factory::Repeat
+* Fuzzled::Factory::Replace
+* Fuzzled::Namespace::EndLine
+* Fuzzled::Namespace::Filename
+* Fuzzled::Namespace::FormatString
+* Fuzzled::Namespace::Javascript
+* Fuzzled::Namespace::LDAP
+* Fuzzled::Namespace::LettersUpper
+* Fuzzled::Namespace::Numbers
+* Fuzzled::Namespace::Printable
+* Fuzzled::Namespace::Separate
+* Fuzzled::Namespace::Shell
+* Fuzzled::Namespace::SQL
+* Fuzzled::Namespace::Unicode
+* Fuzzled::Namespace::URLEncoded
+* Fuzzled::Namespace::Whitespace
+
+These components are collectively known as Fuzzled 2.1. Fuzzled 3.0 will
+consist of a complete rewrite of previously rewritten code. All previously
+written code has been archived and portions /may/ find their way into Fuzzled
+3.0 where suitable.
+
+0.0 - 1.1
+
+* Initial PoC
