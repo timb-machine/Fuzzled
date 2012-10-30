@@ -1,4 +1,4 @@
-# $Header: /var/lib/cvsd/var/lib/cvsd/Fuzzled/src/Fuzzled-Factory-BruteForce/lib/Fuzzled/Factory/BruteForce.pm,v 1.1.1.1 2012-10-30 16:43:53 timb Exp $
+# $Header: /var/lib/cvsd/var/lib/cvsd/Fuzzled/src/Fuzzled-Factory-BruteForce/lib/Fuzzled/Factory/BruteForce.pm,v 1.2 2012-10-30 17:00:51 timb Exp $
 #
 # This program is free software; you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -46,7 +46,7 @@ our @EXPORT = qw(
 
 );
 
-our $VERSION = ('$Header: /var/lib/cvsd/var/lib/cvsd/Fuzzled/src/Fuzzled-Factory-BruteForce/lib/Fuzzled/Factory/BruteForce.pm,v 1.1.1.1 2012-10-30 16:43:53 timb Exp $' =~ m/.Header: .* ([\d.]+) .*/)[0];
+our $VERSION = ('$Header: /var/lib/cvsd/var/lib/cvsd/Fuzzled/src/Fuzzled-Factory-BruteForce/lib/Fuzzled/Factory/BruteForce.pm,v 1.2 2012-10-30 17:00:51 timb Exp $' =~ m/.Header: .* ([\d.]+) .*/)[0];
 
 # Preloaded methods go here.
 
